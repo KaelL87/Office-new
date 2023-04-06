@@ -143,9 +143,7 @@ const AccountMenu: React.FC<{
         </MenuItem>
         <MenuItem
           onClick={() => {
-            navigator.clipboard.writeText(
-              `https://web.roimaster.academy/register?refid=${121254564}`,
-            );
+            navigator.clipboard.writeText(`https://web.master.academy/register?refid=${121254564}`);
             callSuccessToast(t('sidebar.link_copied'));
           }}
         >

@@ -1,8 +1,7 @@
 {
   "author": "KaeL87",
-  "name": "roima-office",
+  "name": "office",
   "version": "0.0.5",
-  "description": "Roima To the moon!!!",
   "main": "index.js",
   "scripts": {
     "test": "jest --config src/jest.config.js --updateSnapshot",
