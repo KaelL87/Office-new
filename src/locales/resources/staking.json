@@ -1,0 +1,32 @@
+{
+  "en": {
+    "search": "Search",
+    "days": "days",
+    "plans": "Plans",
+    "create_plan": "Create Plan",
+    "time_left": "Time Left",
+    "cancel_plan": "Cancel Plan",
+    "no_plans": "No plans active",
+    "edge_plan": "Edge Plan Active",
+    "no_edge_plan": "No Active Edge Plan",
+    "close": "Close",
+    "completed": "Completed",
+    "insufficient_balance": "Insufficient Balance",
+    "back": "Back"
+  },
+  "es": {
+    "search": "Buscar",
+    "days": "días",
+    "plans": "Planes",
+    "create_plan": "Crear Plan",
+    "time_left": "Restante",
+    "edge_plan": "Activo Plan Edge",
+    "no_edge_plan": "No Activo Plan Edge",
+    "cancel_plan": "Cancelar Plan",
+    "no_plans": "No tiene planes activos",
+    "close": "Cerrar",
+    "insufficient_balance": "Balance Insuficiente",
+    "completed": "Terminado",
+    "back": "Atrás"
+  }
+}

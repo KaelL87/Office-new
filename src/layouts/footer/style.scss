@@ -1,0 +1,18 @@
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  clear: both;
+  left: 0;
+  h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    word-spacing: 2px;
+    padding-bottom: 0.7rem;
+  }
+}

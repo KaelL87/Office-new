@@ -1,0 +1,102 @@
+.dropdown {
+  color: white;
+  width: 100%;
+  position: relative;
+  border-radius: 30px;
+  .dropdown-caret {
+    width: 12px;
+    fill: $primary-color;
+    margin-left: 10px;
+    &.up {
+      transform: rotate(180deg);
+    }
+  }
+  .dropdown-select {
+    background-color: #ffffff08;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    padding: 7px 0.6rem;
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    img {
+      position: relative;
+      top: 2px;
+    }
+  }
+  .dropdown-select * {
+    pointer-events: none;
+  }
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 15;
+    margin-top: 0.4rem;
+    background-color: #242323;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    border-radius: 8px;
+    display: none;
+    width: 100%;
+    margin-left: 0;
+    .scroll{
+      max-height: 300px;
+      overflow-x: hidden;
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+      &::-webkit-scrollbar-track {
+          border-radius: 15px;
+      }
+      &::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          -webkit-box-shadow: inset 0 0 40px #969BA0;
+          box-shadow: inset 0 0 40px #969BA0;
+      }
+    }
+    &::before {
+      content: '';
+      height: 0.5rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: transparent;
+      transform: translateY(-100%);
+    }
+    &.show {
+      display: block;
+    }
+    .lang-item {
+      display: flex;
+      align-items: center;
+    }
+    .dropdown-item {
+      padding: 0.5rem;
+      color: white;
+      transition: all 0.25s ease;
+      border-radius: 8px;
+      cursor: pointer;
+      z-index: 15;
+      &:hover {
+        color: rgb(26, 125, 170);
+        background-color: #2a2b2c;
+      }
+      img {
+        position: relative;
+        top: 5px;
+      }
+    }
+    .dropdown-item1 {
+      padding: 0.5rem;
+      color: white;
+      transition: all 0.25s ease;
+      border-radius: 8px;
+      cursor: pointer;
+      z-index: 15;
+    }
+  }
+}

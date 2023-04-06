@@ -1,0 +1,42 @@
+.toggle-wrapper {
+  width: 100%;
+  // max-width: 250px !important;
+  margin: 0 !important;
+}
+
+.toggleContainer {
+  background: transparent !important;
+  border: none;
+  color: white;
+  height: 30px;
+  border: none !important;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  min-width: 210px !important;
+}
+
+.toggleContainer .toggleOption {  
+  line-height: 15px !important;
+  height: 30px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  border-bottom: 4px solid  #2E2E42 !important;
+  user-select: none; 
+  color: whitesmoke !important;
+  transition: none !important;
+  &:nth-child(n) {
+    &.selected ~ .toggle {
+      background-color: transparent;
+    }
+  }
+}
+
+.toggleContainer .toggleOption.selected {
+  color: #5BCFC5 !important;
+  cursor: initial;
+  border-bottom: 4px solid #5BCFC5 !important;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-weight: 600;
+}

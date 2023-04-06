@@ -1,0 +1,36 @@
+{
+  "en": {
+    "dashboard": "Dashboard",
+    "internal_wallet": "Wallet ROI",
+    "internal_wallet_rmai": "Internal Wallet",
+    "wallet": "Wallet",
+    "walletrmai": "Internal Wallet",
+    "mywallets": "Wallets",
+    "staking": "Staking",
+    "fill_kyc": "Please fill KYC",
+    "signed_as": "Signed in as",
+    "telegram_bot": "Telegram Bot",
+    "referral_link": "My Referral Link",
+    "link_copied": "Link copied!",
+    "plans": "Plans",
+    "logout": "Log Out",
+    "pdf": "English PDF"
+  },
+  "es": {
+    "dashboard": "Dashboard",
+    "wallet": "Billetera",
+    "internal_wallet": "Billetera ROI",
+    "internal_wallet_rmai": "Billetera Interna",
+    "walletrmai": "Billetera Interna",
+    "mywallets": "Billeteras",
+    "staking": "Staking",
+    "fill_kyc": "Favor de llenar KYC",
+    "signed_as": "Registrado como",
+    "telegram_bot": "Bot de Telegram",
+    "referral_link": "Mi enlace de referido",
+    "link_copied": "Enlace copiado!",
+    "plans": "Planes",
+    "pdf": "PDF en Español",
+    "logout": "Cerrar sesión"
+  }
+}
